@@ -1,6 +1,6 @@
 # Go Sigterm Ignore
 
-Simple Golang web app, using the standard library which will receive a SIGTERM but then ignore it. Used to demonstrate what happens if an app does not handle SIGTERM correctly.
+Simple Golang web app, using only the standard library, which will receive a SIGTERM but then ignore it. Used to demonstrate what happens if an app does not handle SIGTERM correctly.
 
 ## Pushing to Cloud Foundry
 
