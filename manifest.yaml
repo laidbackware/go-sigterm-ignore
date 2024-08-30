@@ -1,0 +1,9 @@
+---
+applications:
+- name: go-sigterm-ignore
+  random-route: true
+  path: ./
+  memory: 128M
+  instances: 2
+  buildpacks: 
+  - go_buildpack
